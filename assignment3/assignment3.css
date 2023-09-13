@@ -1,0 +1,34 @@
+#crack {
+    background-color: #00ff00;
+  }
+
+  .yuuka {
+    color: #0000ff;
+  }
+ 
+  h1 {
+    color: red;
+}
+
+h2 {
+    color:rgb(146, 57, 29);
+}
+a {
+    color: #00ff37;
+  }
+  
+  a:link {
+    color: #00ff00;
+  }
+  
+  a:visited {
+    color: #ff0000;
+  }
+  
+  a:active {
+    color: #00ff15;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }        

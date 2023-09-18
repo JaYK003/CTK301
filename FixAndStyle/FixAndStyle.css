@@ -1,0 +1,67 @@
+#Holymoly {
+    background-color: #399ba8;
+  }
+
+h1 {
+  color:white;
+}
+
+a {
+  color: #0c7a15;
+}
+
+a:link {
+  color: #108b10;
+}
+
+a:hover {
+  color: #b90606;
+}     
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color:blue;
+}
+
+.KiraKira {
+  color: #bbff00;
+}
+
+h3 {
+  background-color: yellow;
+}
+
+.StayBlue {
+  color: #b90606;
+}
+
+h4 {
+  color: #bbff00;
+}
+
+.KonKonBeats {
+  background-color: #0c7a15;
+}
+
+.MoguMoguYummy {
+  background-color: lightgreen;
+}
+
+h5 {
+  color: #b90606;
+}
+
+.WeliveWeloveWelie {
+  background-color: #bbff00;
+}
+
+.Shirakami {
+  color: blue;
+}

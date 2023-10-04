@@ -1,0 +1,78 @@
+header {
+    background-color: black;
+    padding: 1px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    grid-column: span 6;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding:0;
+    margin:0;
+    grid-column: span 2;
+}
+
+nav li {
+    border:1px solid black;
+    width:200px;
+    margin: 10px;
+    padding:0px; 
+    background-color:red;
+    color:white; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   nav li a {
+    color:white;
+    display:block; 
+    padding:10px;
+    text-decoration: none;
+    
+}
+
+nav li a:hover {
+    background-color: darkred;
+}
+
+#Fubuki {
+margin: 1em auto;
+padding: 20px;
+width: 960px;
+
+background-color: #ffffff;
+grid-template-columns: repeat(6, 1fr);
+display:grid;
+}
+
+main img {
+    float:left;
+    border: 3px solid black;
+    padding: 0;
+    grid-column: span 6;
+}
+
+h2 {
+    grid-column: span 2;
+    text-align: left;
+}
+
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: span 4;
+   text-align: right;
+
+    
+}
+
+footer {
+    background-color: red;
+    color: white;
+    grid-column: span 6;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jalen Awesome Site</title>
+
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+	
+
+	<link href="assignment10.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+<header>
+	<h1>Jalen's Awesome Site</h1>
+</header>
+<img class="mainimg" src="Screenshot 2023-12-03 175946.png" alt="Camera">
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About Me</a></li>
+		<li><a href="#">Projecs</a></li>
+	</ul>
+</nav>
+<main>
+	<article>
+		<h2>P1</h2>
+		<img src="Screenshot 2023-12-03 175754.png" alt="Birdhouse"> 
+		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+
+	</article>
+
+	<article>
+		<h2>P2</h2>
+		<img src="Screenshot 2023-12-03 175946.png" alt="Birdhouse"> 
+		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+		
+	</article>
+
+	<article>
+		<h2>P3</h2>
+		<img src="Birdhouse.jpg" alt="Birdhouse"> 
+		<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+		
+	</article>
+</main>
+
+		<footer>
+			<p>Illinois State University</p>	
+		</footer>
+	</div>
+
+	<div class="f-carousel" id="myCarousel">
+		<div class="f-carousel__slide"><img src="Screenshot 2023-12-03 175754.png"></div>
+		<div class="f-carousel__slide"><img src="Screenshot 2023-12-03 175946.png"></div>
+		<div class="f-carousel__slide"><img src="water.jpg"></div>
+	  </div>
+
+	  <script> 
+Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+}); 
+
+const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+
+
+
+</script>
+
+	  
+
+</body>
+</html>

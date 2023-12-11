@@ -1,0 +1,104 @@
+body {
+  background-image: url(wallhaven-jxeedw.png);
+
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 5px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  
+  }
+  
+  header {
+    grid-column:span 12;
+    color: white;
+    background-color: rgb(0, 13, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .mainimg{
+    grid-column: span 2;
+    width: 200%;
+    padding-top: 55px;
+   
+   
+  }
+
+
+  
+  nav {
+    grid-column: span 4;
+    padding-left: 40px;  
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+  
+  }
+  
+  nav li {
+    color: #ffffff;
+    background-color:  rgb(0, 13, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+  
+  main {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+  
+  }
+  
+  footer {
+    grid-column: span 12;
+    color: white;
+    background-color: rgb(0, 13, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  article h2 {
+    color: rgb(0, 13, 128);
+    border-bottom: 5px solid yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  article {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2037357232940435595/6B7AB9CA41A9F55456B397E4C1238492A7F6DCD1/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+
+    border: solid black 5px;
+    grid-column: span 8;
+    padding: 15px;
+    margin: 50px;
+  }
+
+  nav img {
+    width: 300px;
+  }
+
+ 
